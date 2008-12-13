@@ -10,7 +10,7 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #
-# For licensing info read LICENSE file in the TWiki root.
+# For licensing info read LICENSE file in the Foswiki root.
 #
 # '$Rev$'
 
@@ -18,8 +18,8 @@
 
 ---+ package EmptyTag
 
-This is an empty TWiki tag. It is a fully defined tag, but is
-disabled by default in a TWiki installation. Use it as a template
+This is an empty Foswiki tag. It is a fully defined tag, but is
+disabled by default in a Foswiki installation. Use it as a template
 for your own tags; see %SYSTEMWEB%.Macros for details.
 
 =cut
@@ -27,7 +27,7 @@ for your own tags; see %SYSTEMWEB%.Macros for details.
 # Always use strict to enforce variable scoping
 use strict;
 
-# Must be in TWiki package
+# Must be in Foswiki package
 package TWiki;
 
 use vars qw($tagname);
